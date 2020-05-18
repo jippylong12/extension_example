@@ -1,0 +1,26 @@
+{
+  "name": "Extension Example",
+  "version": "1.0",
+  "description": "Extension for PHP",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icons": {
+      "16": "images/example_extension_16.png",
+      "32": "images/example_extension_32.png",
+      "48": "images/example_extension_48.png",
+      "128": "images/example_extension_128.png"
+    }
+  },
+  "icons": {
+    "16": "images/example_extension_16.png",
+    "32": "images/example_extension_32.png",
+    "48": "images/example_extension_48.png",
+    "128": "images/example_extension_128.png"
+  },
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "manifest_version": 2
+}
